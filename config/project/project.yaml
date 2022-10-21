@@ -1,0 +1,22 @@
+dateModified: 1666341308
+email:
+  fromEmail: miro@studio24.net
+  fromName: craftcms
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    3ae951b1-446f-4e96-8454-0ede1a917fd6: Common
+    23994ab6-08b6-47b4-a18a-a04785a7c385: craftcms
+    558836e4-e391-449e-b4fe-f28fedca045c: craftcms
+system:
+  edition: solo
+  live: true
+  name: craftcms
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
