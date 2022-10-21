@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: craftcms
 primary: true
-siteGroup: 23994ab6-08b6-47b4-a18a-a04785a7c385
+siteGroup: 23994ab6-08b6-47b4-a18a-a04785a7c385 # craftcms
 sortOrder: 1

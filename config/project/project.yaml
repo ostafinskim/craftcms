@@ -1,13 +1,54 @@
-dateModified: 1666341308
+dateModified: 1666348789
 email:
   fromEmail: miro@studio24.net
   fromName: craftcms
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  blog:
+    hasUrls: true
+    name: Blog
+    settings:
+      path: '@webroot/assets/blog'
+    type: craft\fs\Local
+    url: '@web/assets/blog'
+  general:
+    hasUrls: true
+    name: General
+    settings:
+      path: '@webroot/assets/general'
+    type: craft\fs\Local
+    url: '@web/assets/general'
 meta:
   __names__:
-    3ae951b1-446f-4e96-8454-0ede1a917fd6: Common
-    23994ab6-08b6-47b4-a18a-a04785a7c385: craftcms
-    558836e4-e391-449e-b4fe-f28fedca045c: craftcms
+    2a37a5d1-2af9-4867-bbe5-6287931bcc4d: Blog # Blog
+    2cdba0ee-8ad3-49c0-8657-5a794ebc84ee: 'Feature Image' # Feature Image
+    3ae951b1-446f-4e96-8454-0ede1a917fd6: Common # Common
+    5aa99215-2694-4a9c-8cf8-b2603e540967: Blog # Blog
+    5e96cefb-46c9-438c-b3c7-86f745769875: Image # Image
+    9ce7523f-0f1c-4ffd-a708-59375a41c147: Text # Text
+    16d7d5e4-7801-4ade-b486-ff9be95321ef: 'About Image' # About Image
+    29e5f59a-9dc6-4578-9292-6f56b4cd11b1: Text # Text
+    45ad6a97-c63f-45d8-b290-ced0de1ed163: 'Post Categories' # Post Categories
+    89dc6727-592c-47a8-9ddf-55ca359a7ee9: About # About
+    97f7f928-eabd-4529-8570-a0f87d5dfb3a: Image # Image
+    417f3295-107e-43ef-823b-9f327ade9d73: 'Site Description' # Site Description
+    618c2339-85ee-41c6-a38e-9869c32015b2: 'Single Fields' # Single Fields
+    870b68ac-f689-4fab-82fc-234e34c792fc: Blog # Blog
+    9728f4b9-8b73-42f9-80cd-3bf41a5a36f0: General # General
+    20807ab2-504b-430a-beba-84891ca9e755: About # About
+    23994ab6-08b6-47b4-a18a-a04785a7c385: craftcms # craftcms
+    558836e4-e391-449e-b4fe-f28fedca045c: craftcms # craftcms
+    750986c8-8b43-4e7d-8cda-746c7c042480: 'Blog Post Fields' # Blog Post Fields
+    64822692-6e68-4569-89e4-91bff534b0c3: 'Global Fields' # Global Fields
+    aba00257-4d79-4442-b22c-9d5062d00454: 'Post Content' # Post Content
+    c30c4711-0455-46b3-8d69-fda7ce9378d7: Summary # Summary
+    e6325062-a48d-474d-bd57-f8f3db20cb41: 'Blog Categories' # Blog Categories
+    f8d7f041-1dd3-4718-a068-476ca3bb0975: 'Site Information' # Site Information
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
